@@ -1,0 +1,188 @@
+# Copyright (C) 2019 Matthias Pfefferle
+# This file is distributed under the MIT.
+msgid ""
+msgstr ""
+"Project-Id-Version: OStatus 2.5.5\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/wordpress-ostatus\n"
+"POT-Creation-Date: 2019-07-25 20:49:25+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/class-ostatus-admin.php:21 includes/class-ostatus-admin.php:22
+msgid "Dependencies"
+msgstr ""
+
+#: includes/class-ostatus-admin.php:62
+msgid "Overview"
+msgstr ""
+
+#: includes/class-ostatus-admin.php:64
+msgid ""
+"OStatus lets people on different social networks follow each other. It "
+"applies a group of related protocols (PubSubHubbub, ActivityStreams, "
+"Salmon, Portable Contacts, and Webfinger) to this problem in what we "
+"believe is a simple and obvious way."
+msgstr ""
+
+#: includes/class-ostatus-admin.php:65
+msgid ""
+"OStatus is a minimal specification for distributed status updates or "
+"microblogging. Many social applications can be modelled with status "
+"updates, however. Practically any software that generates RSS or Atom feeds "
+"could be OStatus-enabled. Travel networks, event invitation systems, wikis, "
+"photo-sharing systems, social news sites, social music sites, podcasting "
+"servers, blogs, version control systems, and general purpose social "
+"networks would all be candidates for OStatus use."
+msgstr ""
+
+#: includes/class-ostatus-admin.php:70
+msgid "For more information:"
+msgstr ""
+
+#: includes/class-ostatus-admin.php:71
+msgid "<a href=\"https://www.w3.org/community/ostatus/\">W3C community page</a>"
+msgstr ""
+
+#: includes/class-ostatus-admin.php:72
+msgid ""
+"<a href=\"https://www.w3.org/community/ostatus/wiki/Howto\">How to "
+"OStatus-enable Your Application</a>"
+msgstr ""
+
+#: includes/class-ostatus-admin.php:73
+msgid ""
+"<a href=\"https://github.com/pfefferle/wordpress-ostatus/issues\">Give us "
+"feedback</a>"
+msgstr ""
+
+#: includes/class-ostatus-admin.php:75
+msgid "<a href=\"https://notiz.blog/donate\">Donate</a>"
+msgstr ""
+
+#: templates/dependencies-page.php:2
+msgid "OStatus Dependencies"
+msgstr ""
+
+#: templates/dependencies-page.php:4
+msgid ""
+"OStatus is like a <em>Best of OpenWeb Standards</em> and so is this plugin. "
+"If there is a plugin available that already implements one of these "
+"standards, we will use/support it. If we are missing one, <a "
+"href=\"https://github.com/pfefferle/wordpress-ostatus/issues\" "
+"target=\"_blank\">please let us know</a>. The installation is a bit "
+"painful, but we think it's much more <em>open style</em> ;)"
+msgstr ""
+
+#: templates/feed-ostatus-comments.php:36
+#. translators: Comments feed title. 1: Post title
+msgid "Comments on %s"
+msgstr ""
+
+#: templates/feed-ostatus-comments.php:39
+#. translators: Comments feed title. 1: Site name, 2: Search query
+msgid "Comments for %1$s searching on %2$s"
+msgstr ""
+
+#: templates/feed-ostatus-comments.php:42
+#. translators: Comments feed title. 1: Site name
+msgid "Comments for %s"
+msgstr ""
+
+#: templates/feed-ostatus-comments.php:88
+#. translators: Individual comment title. 1: Post title, 2: Comment author name
+msgid "Comment on %1$s by %2$s"
+msgstr ""
+
+#: templates/feed-ostatus-comments.php:91
+#. translators: Comment author title. 1: Comment author name
+msgid "By: %s"
+msgstr ""
+
+#: templates/settings-page.php:4
+msgid ""
+"Be sure to install all OStatus <a href=\"%1$s\" "
+"target_\"blank\">plugin-dependencies</a>."
+msgstr ""
+
+#: templates/settings-page.php:9
+msgid "OStatus Settings"
+msgstr ""
+
+#: templates/settings-page.php:11
+msgid ""
+"OStatus for WordPress turns your blog into a federated social network. This "
+"means you can share and talk to everyone using the OStatus protocol, "
+"including users of Status.net, Identi.ca and Mastodon."
+msgstr ""
+
+#: templates/settings-page.php:16
+msgid "Feed"
+msgstr ""
+
+#: templates/settings-page.php:18
+msgid "Feeds are the base of OStatus, here you find all feed related settings."
+msgstr ""
+
+#: templates/settings-page.php:24
+msgid "Show summary"
+msgstr ""
+
+#: templates/settings-page.php:29
+msgid "Enable the <code>&lt;summary&gt;</code>, for the OStatus feed"
+msgstr ""
+
+#: templates/settings-page.php:37
+msgid "Profile"
+msgstr ""
+
+#: templates/settings-page.php:39
+msgid "All profile related settings."
+msgstr ""
+
+#: templates/settings-page.php:45
+msgid "Profile identifier"
+msgstr ""
+
+#: templates/settings-page.php:51
+msgid "Try \"@%s\" in the mastodon/gnu.social search field."
+msgstr ""
+
+#: templates/settings-page.php:54
+msgid ""
+"You need to install the <a href=\"%1$s\" target_\"blank\">WebFinger "
+"plugin</a> to generate the identifier."
+msgstr ""
+
+#: templates/settings-page.php:71
+msgid ""
+"If you like this plugin, what about a small <a "
+"href=\"https://notiz.blog/donate\">donation</a>?"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "OStatus"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/pfefferle/wordpress-ostatus"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A bundle of plugins that turn your blog into your private federated social "
+"network."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Matthias Pfefferle"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://notiz.blog/"
+msgstr ""
